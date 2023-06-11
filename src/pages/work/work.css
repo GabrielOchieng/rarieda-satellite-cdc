@@ -1,0 +1,21 @@
+.main{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.how{
+    flex: 1;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+}
+
+.how>h3{
+    text-decoration: underline;
+}

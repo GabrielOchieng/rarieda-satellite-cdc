@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(19, 228, 217);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.navHeader{
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.navItems{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navButton {
+    padding: 10px;
+}
+
+.navButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hidden{
+    opacity: 0;
+}
