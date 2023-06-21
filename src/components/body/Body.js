@@ -15,7 +15,7 @@ const Body = () => {
       <div><img src="/pics/LessonP.jpeg" alt="" className="img" /></div>
       <div><img src="/pics/LessonC.jpeg" alt="" className="img" /></div>
       <div><img src="/pics/DemoT.jpeg" alt="" className="img" /></div>
-      <p>Some of our Participants/Activities</p>
+      <p className="parag">Some of our Participants/Activities</p>
     
     </div>
     </div>

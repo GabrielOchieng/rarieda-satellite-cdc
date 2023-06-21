@@ -126,7 +126,7 @@ const Footer = () => {
         }
 
       <div className='footer' id='involved'>
-        
+        <div className="foot">
         <div className="fLists">
             <ul className="fList">
                 <li className="fListItem">Home</li>
@@ -159,6 +159,8 @@ const Footer = () => {
             </ul>
             
         </div>
+        </div>
+        
         <hr />
         <div className="fText">{copyright} 2023 THEGABRIELSHOW. All Rights Reserved</div>
       
